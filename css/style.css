@@ -65,6 +65,11 @@ img {
   color: #2d64e6;
 }
 
+.btn-now {
+  background-color: #f5f5f5;
+  color: black;
+}
+
 /* Sezione Header */
 .bkg-img {
   background-image: url("../img/jumbo-bg.png");
@@ -125,3 +130,14 @@ img {
 .ps-plus {
   background-color: #bebcbb;
 }
+
+/* PlayStation Now Section */
+.ps-now {
+  background-color: #161c3b;
+}
+
+/* @media (min-width: 1700px) {
+  .container-lg {
+    max-width: 1600px;
+  }
+} */
