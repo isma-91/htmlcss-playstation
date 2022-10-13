@@ -83,6 +83,11 @@ h2 {
   color: #2f8cd7;
 }
 
+.item {
+  text-align: center;
+  margin-top: 5px;
+}
+
 .opac {
   opacity: 0.3;
 }
