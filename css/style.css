@@ -105,3 +105,8 @@ h2 {
   background-position-x: center;
   min-height: 750px;
 }
+
+/* Game news Section */
+.game-news {
+  background-color: #1f1f1f;
+}
