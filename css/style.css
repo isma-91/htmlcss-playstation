@@ -58,9 +58,10 @@ h2 {
 /* Sezione Header */
 .bkg-img {
   background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
   background-position-y: top;
   background-position-x: center;
-  min-height: 650px;
+  min-height: 750px;
 }
 
 .game-img img {
@@ -89,4 +90,13 @@ h2 {
 .opac:hover {
   opacity: 1;
   border-bottom: 3px solid #2f8cd7;
+}
+
+/* It takes Two */
+.bkg-img-2 {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-position-y: top;
+  background-position-x: center;
+  min-height: 750px;
 }
