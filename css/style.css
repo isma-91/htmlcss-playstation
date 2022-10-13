@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Black bar */
+.r_black {
+  background-color: black;
+}
+
+.navbar {
+  border-bottom: 2px solid black;
+}
+
+.sony {
+  min-height: 20px;
+  max-height: 25px;
+}
+
+/* NavBar */
+.nav-item {
+  margin: 0 15px;
+  color: black;
+}
+
+.nav-item a {
+  color: black;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-nav {
+  background-color: #363636;
+  border: 1px solid #363636;
+}
+
+.btn-cta {
+  background-color: #cd3d0f;
+}
+
+/* Sezione Header */
+.bkg-img {
+  background-image: url("../img/jumbo-bg.png");
+  background-position-y: top;
+  background-position-x: center;
+  min-height: 650px;
+}
+
+.game-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.game-img {
+  padding: 2px;
+}
+
+.border-blue {
+  border: 3px solid #2f8cd7;
+  border-radius: 20px;
+}
