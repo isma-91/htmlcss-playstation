@@ -136,6 +136,35 @@ img {
   background-color: #161c3b;
 }
 
+/* Footer */
+.footer {
+  background-color: #043f8c;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul {
+  list-style: none;
+}
+
+.globe {
+  max-width: 20px;
+}
+
+.si-logo {
+  max-width: 120px;
+}
+
+.info-copyright {
+  font-size: 0.8rem;
+}
+
+.info-copyright a {
+  text-decoration: underline;
+}
+
 /* @media (min-width: 1700px) {
   .container-lg {
     max-width: 1600px;
