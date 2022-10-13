@@ -1,6 +1,14 @@
+/* General */
+html {
+  font-size: 18px;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin-top: 118px;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 /* Black bar */
@@ -43,6 +51,10 @@ body {
   background-color: #cd3d0f;
 }
 
+.btn-info {
+  background-color: #2d64e6;
+}
+
 /* Sezione Header */
 .bkg-img {
   background-image: url("../img/jumbo-bg.png");
@@ -63,4 +75,18 @@ body {
 .border-blue {
   border: 3px solid #2f8cd7;
   border-radius: 20px;
+}
+
+/* Sezione PS5 */
+.no-limit {
+  color: #2f8cd7;
+}
+
+.opac {
+  opacity: 0.3;
+}
+
+.opac:hover {
+  opacity: 1;
+  border-bottom: 3px solid #2f8cd7;
 }
