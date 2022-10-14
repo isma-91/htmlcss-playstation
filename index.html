@@ -68,8 +68,11 @@
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav w-100 fw-bold">
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav fw-bold">
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -400,7 +403,10 @@
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown ms-auto center">
+                <!-- Qui andava la stringa -->
+              </ul>
+              <ul class="navbar-nav fw-bold text-center">
+                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -442,7 +448,9 @@
                 </li>
                 <li class="center lens">
                   <a href="#" class="nav-item">
-                    <i class="fa-solid fa-magnifying-glass fs-3 text-black"></i>
+                    <i
+                      class="fa-solid fa-magnifying-glass fs-3 mt-2 text-black"
+                    ></i>
                   </a>
                 </li>
               </ul>
@@ -452,7 +460,12 @@
       </div>
       <section>
         <div class="bkg-img d-flex">
-          <div class="container-lg d-flex align-self-end text-white">
+          <div
+            class="container-lg d-flex flex-column align-self-end text-white"
+          >
+            <div class="col-7 col-xxl-3 mb-5">
+              <img src="img/returnal-hero-banner-logo.png" alt="" />
+            </div>
             <div class="col-12 col-xxl-4">
               <h2 class="mb-4">Rompi il cerchio</h2>
               <p>
@@ -472,8 +485,7 @@
               class="row row-cols-2 row-cols-sm-3 row-cols-xxl-6 g-4 mt-2 pb-2"
             >
               <div class="col">
-                <div class="game-img pick blue-border">
-                  <!-- da capire come fare per bene il bordo perchè si rimpicciolisce -->
+                <div class="game-img pick active">
                   <img src="img/game-small1.jpg" alt="" />
                 </div>
               </div>
