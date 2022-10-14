@@ -70,18 +70,17 @@ img {
   position: static;
 }
 
-.navbar {
+.container-fluid {
   position: relative;
 }
 
 .dropdown-menu.show {
-  background-color: white !important;
   position: absolute;
   border: none;
   border-radius: 0;
   left: 0;
   right: 0;
-  top: 80%;
+  top: 100%;
 }
 
 .dot {
@@ -100,6 +99,20 @@ img {
   background-color: white;
 }
 
+.show ._btn {
+  margin-bottom: 5px;
+}
+
+.show .center {
+  width: 100%;
+  text-align: center;
+}
+
+.center.lens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Buttons */
 ._btn {
   padding: 10px 20px;
