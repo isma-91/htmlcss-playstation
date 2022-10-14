@@ -39,6 +39,40 @@ img {
   color: black;
 }
 
+/* Dropdown */
+.dropdown {
+  position: static;
+}
+
+.navbar {
+  position: relative;
+}
+.dropdown-menu.show {
+  background-color: white !important;
+  position: absolute;
+  border: none;
+  border-radius: 0;
+  left: 0;
+  right: 0;
+  top: 80%;
+}
+
+.dot {
+  color: #2d64e6;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.ps-hover:hover {
+  background-color: white;
+  box-shadow: -0 -0 10px rgb(166, 197, 255);
+}
+
+.blue-hover:hover {
+  color: #2d64e6;
+  background-color: white;
+}
+
 /* Buttons */
 .btn {
   padding: 10px 20px;
