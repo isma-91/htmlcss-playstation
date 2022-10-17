@@ -61,7 +61,7 @@ img {
   display: inline-block;
 }
 
-.nav-item a:focus .down {
+.nav-item a.show .down {
   transform: rotate(180deg);
 }
 
@@ -190,6 +190,7 @@ img {
 }
 
 .game-img {
+  height: 100%;
   padding: 2px;
   transition: 0.4s ease-out;
   cursor: pointer;
